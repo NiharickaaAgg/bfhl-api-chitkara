@@ -147,3 +147,5 @@ app.listen(PORT, () => {
   console.log(`   GET  http://localhost:${PORT}/health`);
   console.log(`   POST http://localhost:${PORT}/bfhl`);
 });
+
+module.exports = app;
